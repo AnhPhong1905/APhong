@@ -1,6 +1,6 @@
 
 body{
-   background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoICAgICAoIBwcHCAoHBwcHCA8ICQcKIBEWFiARHxMYHSggGBolGxUfITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0PFSsZFRkrKy03Ny0rKystNysrLSstKysrKzcrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIARMAtwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABsQAQEBAQADAQAAAAAAAAAAAAABERIxQfAC/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQESAv/aAAwDAQACEQMRAD8A9dGsXHCsRkVcKRkXApGcMaMKRnDGsFpGcGgpERvEwpGRrDEpGRrBaRkxoKRnDFwwqRMRrAI2jWDDbJjSKGACJgoIhigAAqDQDI1hgsZMawwGTGsMSkZwxcMUiYLgEaQTUibqolTVjO+l01m1NajG+mtXXPTSJ22axppDt001iVdIuem9VjVlZjeemlZ1UjWaoA0AIoKAgKDnqWprNrpHn301azqWs2tZjlvprUtYtTWo577b6OnPTVjHbp0dOemkO3XVlcpVlTfLWe3XV1zn6WVncdc9OsWVzlalZ3HXPToMausx0zWxnV0jVUTU1ItaE0ItcbWbS1mu+Y8PrS1m0rOtZjj61dZtKlrWY5bpprIsYrWrrCwhWtWVhpNxrNblalc5WpWdx2866SrKxKsrO47eddF1jVZ3HXNbXWNVI3mtaazokarQyEK4pRK7x4tRmqiuWoipWnLUFQYRVFIKio3itRmLGXTGo1GYqR28tSrKyrMdc1pdZEjea1prJpFreomhCuaKOsebWUaQc9xlGjFY3GUxrDFZ5ZGsMDlFwxUazCKRUbzCKQHTFVFSN4KgRqqAkaoAQrKKNuW4iKDO4zg0is75ZGgTlkaA5QUF5FBGoKijWYKijQAAqAoAQRAaQBcERFwCJgoJAAIYAEABRUBVEEFE1VDVQQAAD7wUVUFAAAgIqERQCAAQwAAAIABAVFAAAAFARoACGCARRAWKIBFEAiiARRFEgYAQACCKCRBoCINIzXSIKFWIKhVgAVeUFA5ACnIAVOQFKRBQqRBoKkZVcMKkQMUpAxRmu3LIqJV5ACrygBV5ACryAFOQFKnIAVOQxQqcgotZ5RTDCpAAICjDvGRagsEKDUQAWAgLFEUSCoBFVFGYKAkBVisxBcBIACQqVUR3iVFBYlQqDUAQWAgEURQiiKEVYiwZ3FCAm4qoozFCKJAASMlCo6xkEoqIUVpEAUBBYoAkUiKCtRlRGosRYjKgsEFAZBYAwVUo2zUq1BUZq1FaQBFQBVFRQFRYIsVFgitRmNRGVWIqooKMgCDNZqA0h6AaxmoCtIgClQAFAFWAgNQFZWNRBE1qLAGVUBCgKj//2Q==);
+   background: url(/images/back1.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
@@ -20,6 +20,10 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.Intro li :hover{
+    color: yellow;
+    text-decoration: underline;
+}
 a{
     text-decoration: none;
     color: white;
@@ -33,14 +37,15 @@ a{
 
 .Search{
     display: flex;
-}.Search__Search{
+}
+.Search__Search{
     margin-left: 20px;
     margin-top: 6px;
 }
 input{
     width: 800px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 .Check{
     background-color: #00483d;
@@ -52,6 +57,9 @@ input{
     display: flex;
     border: 0;
     cursor: pointer;
+}
+.Check:hover{
+    color: yellowgreen;
 }
 .Menu{
     background-color: #00483d;
@@ -69,9 +77,12 @@ input{
     text-align: center;
     font-size: 15px;
     padding-top: 10px;  
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
     cursor: pointer;
+}
+.Menu li :hover{
+    color: yellowgreen;
 }
 .ROG{
     width: 1327px;
@@ -104,11 +115,12 @@ input{
     justify-content: center;
 }
 .IMG img{
-    width: 323px;
-    height: auto;
+    width: 325px;
+    height: 183px;
     margin-top: 20px;
     margin-left: 5px;
     margin-right: 5px;
+    cursor: pointer;
 }
 .Sale{
     margin-left: 100px;
@@ -138,6 +150,10 @@ input{
     border-radius: 10px;
     font-weight: bold;
 }
+.Iphone__Color img{
+    width: 200px;
+    height: 198px;
+}
 .Iphone__Price{
     color: red;
     background: none;
@@ -154,6 +170,9 @@ input{
     margin-top: 10px;
     margin-bottom: 10px;
     cursor: pointer;
+}
+.Iphone__Color button:hover{
+    color: yellowgreen;
 }
 .Laptop{
     display: flex;
@@ -173,6 +192,7 @@ input{
     border-radius: 10px;
     font-weight: bold;
 }
+
 .Laptop__Price{
     color: red;
     background: none;
@@ -190,9 +210,11 @@ input{
     margin-bottom: 10px;
     cursor: pointer;
 }
+.Laptop__Color button:hover{
+    color: yellowgreen;
+}
 .Laptop__Color img{
-    width: 300px;
-    height: auto;
+    width: 300px; 
 }
 .INTRO{
     margin-top: 40px;
@@ -205,6 +227,7 @@ input{
     width: 200px;
     border: 2px solid black;
     border-radius: 10px;
+    cursor: pointer;
 }
 .INTRO__IT p{
     margin-left: 50px;
@@ -213,16 +236,23 @@ input{
     color: #00483d;
 }
 .Infor{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 1338px;
+    background-color: #00483d;
     display: flex;
-    justify-content: center;
     margin-top: 50px;
+    border-radius: 20px;
 }
-.Infor img{
-    width: 100px;
-    height: auto;
+.mail{
+    margin-left: 205px;
+    margin-top: 55px;
 }
 .Infor div{
+    color: white;
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 .Infor p{
     margin-bottom: 0;
@@ -233,6 +263,13 @@ input{
     width: 400px;
     margin-top: 30px;
     border-radius: 20px;
+}
+.Infor__Search i{
+    cursor: pointer;
+}
+.caption{
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .Footer{
     background-color: #00483d;
